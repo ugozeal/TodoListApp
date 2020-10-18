@@ -40,7 +40,6 @@ class TodoListViewController: UITableViewController, ShowTodoDisplayLogic {
         
         let deleteWorker = DeleteTaskWorker()
         interactor.deleteWorker = deleteWorker
-        self.interactor = interactor
     }
 
     func setNavigation() {

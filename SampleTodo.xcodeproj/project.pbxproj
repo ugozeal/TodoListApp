@@ -33,7 +33,6 @@
 		E23E5D31253C57A90021EE65 /* DetailsScreenWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E5D30253C57A90021EE65 /* DetailsScreenWorker.swift */; };
 		E23E5D36253C5C5F0021EE65 /* ShowTodoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E5D35253C5C5F0021EE65 /* ShowTodoWorker.swift */; };
 		E23E5D3C253C66AB0021EE65 /* DeleteTodoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E5D3B253C66AB0021EE65 /* DeleteTodoWorker.swift */; };
-		E23E5D44253C67C60021EE65 /* DeleteTodoBusinessLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E5D43253C67C60021EE65 /* DeleteTodoBusinessLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +90,6 @@
 		E23E5D30253C57A90021EE65 /* DetailsScreenWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreenWorker.swift; sourceTree = "<group>"; };
 		E23E5D35253C5C5F0021EE65 /* ShowTodoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTodoWorker.swift; sourceTree = "<group>"; };
 		E23E5D3B253C66AB0021EE65 /* DeleteTodoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTodoWorker.swift; sourceTree = "<group>"; };
-		E23E5D43253C67C60021EE65 /* DeleteTodoBusinessLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTodoBusinessLogic.swift; sourceTree = "<group>"; };
 		F2EE9B1069E04BB7CD282DF8 /* Pods_SampleTodo_SampleTodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleTodo_SampleTodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -240,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				E23E5D3B253C66AB0021EE65 /* DeleteTodoWorker.swift */,
-				E23E5D43253C67C60021EE65 /* DeleteTodoBusinessLogic.swift */,
 			);
 			path = DeleteTodo;
 			sourceTree = "<group>";
@@ -528,7 +525,6 @@
 			files = (
 				E23C2D452539DF6E0060D50A /* UITextField+Extension.swift in Sources */,
 				E23C2D402539DF650060D50A /* UIViewController+Extension.swift in Sources */,
-				E23E5D44253C67C60021EE65 /* DeleteTodoBusinessLogic.swift in Sources */,
 				E22D385F253B3E8900C68149 /* ShowTodoInteractor.swift in Sources */,
 				E22D3870253B5EDD00C68149 /* DetailsScreenInteractor.swift in Sources */,
 				E23E5D31253C57A90021EE65 /* DetailsScreenWorker.swift in Sources */,
